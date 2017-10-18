@@ -1,4 +1,4 @@
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--<%@ page import="java.io.IOException" %>--%>
 
 <html>
@@ -9,9 +9,9 @@
 <%@ include file="partials/navbar.jsp"%>
 <%@include file="partials/style.jsp"%>
 <form action="login.jsp" method="post">
-    name : <input type="text"  name="name" placeholder="Enter your name" >
+    name : <input type="text"  name="Name" placeholder="Enter your name" >
 
-    password : <input type="password" class=" password" name="password" placeholder="Enter password ">
+    password : <input type="password" class=" password" name="Password" placeholder="Enter password ">
 
     <button type="submit">submit</button>
 </form>
